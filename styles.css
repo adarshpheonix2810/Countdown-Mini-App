@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #1a1a1a;
     color: #fff;
@@ -17,6 +22,7 @@ body{
     border-radius: 10px;
 }
 h1{
+    text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -30,7 +36,8 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 5px;
+    
 }
 #countdown span{
     font-size: 2em;
@@ -46,4 +53,37 @@ h1{
     background-color: #444;
     padding: 15px;
     border-radius: 5px;
+}
+@media (min-width: 750px) {
+    .container{
+        width: 80%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    #countdown span{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 750px) {
+    .container{
+        width: 70%;
+        padding: 10px;
+    }
+    h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #countdown span{
+        font-size: 1.2em;
+    }
+    #countdown div{
+        padding: 10px;
+        border-radius: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
 }
