@@ -26,6 +26,12 @@ h1{
     font-size: 2.5em;
     margin-bottom: 20px;
 }
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #countdown{
     display: flex;
     justify-content: center;
@@ -52,6 +58,22 @@ h1{
 #countdown div{
     background-color: #444;
     padding: 15px;
+    border-radius: 5px;
+}
+.progress-container{
+    width: 100%;
+    background-color: #faf7f7;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 10px;
+    
+}
+#progress-bar{
+    background: rgb(146, 227, 25);
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-in-out;
     border-radius: 5px;
 }
 @media (min-width: 750px) {
