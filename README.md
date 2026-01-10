@@ -53,4 +53,4 @@ This project is open source and available for personal and educational use.
 
 ## Author
 
-Created by Adarsh Phoenix
+Created by Adarsh Singh
