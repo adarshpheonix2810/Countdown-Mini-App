@@ -23,9 +23,6 @@ A simple and elegant countdown timer web application that allows users to set a 
 - CSS3
 - JavaScript (Vanilla)
 
-## Live Demo
-
-Visit the live application at: [Countdown Mini App](https://adarshpheonix2810.github.io/Countdown-Mini-App/)
 
 ## Installation
 
